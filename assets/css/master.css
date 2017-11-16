@@ -121,10 +121,10 @@ a {
       @media screen and (max-width: 767px) {
         .hero .main svg {
           height: 110px;
-          margin-top: -265px; } }
+          margin-top: -250px; } }
       @media screen and (max-width: 545px) {
         .hero .main svg {
-          margin-top: -255px;
+          margin-top: -240px;
           height: 100px; } }
       @media screen and (max-width: 320px) {
         .hero .main svg {
@@ -149,11 +149,12 @@ a {
         @media screen and (max-width: 767px) {
           .hero .main .badge-outline .badge {
             border-radius: 0px;
-            background: white; } }
+            background: white;
+            margin-top: -185px; } }
         @media screen and (max-width: 545px) {
           .hero .main .badge-outline .badge {
             width: 325px;
-            margin-top: -190px; } }
+            margin-top: -175px; } }
         @media screen and (max-width: 320px) {
           .hero .main .badge-outline .badge {
             width: 275px;
