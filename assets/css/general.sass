@@ -123,20 +123,25 @@ a
       right: 0
       width: 110px
       z-index: 2
-      margin-top: -235px
+      margin-top: -230px
 
       @media screen and (max-width: $break-small)
         height: 110px
         margin-top: -265px
 
       @media screen and (max-width: $break-smaller)
-        margin-top: -265px
+        margin-top: -255px
+        height: 100px
+
+      @media screen and (max-width: $break-iphone5)
+        height: 80px
+        margin-top: -227px
 
     .badge-outline
       border-radius: 0px
 
       .badge
-        margin-top: -195px
+        margin-top: -190px
         position: absolute
         margin-left: auto
         margin-right: auto
@@ -156,6 +161,11 @@ a
 
         @media screen and (max-width: $break-smaller)
           width: 325px
+          margin-top: -190px
+
+        @media screen and (max-width: $break-iphone5)
+          width: 275px
+          margin-top: -175px
 
         h1
           color: $primary-color
